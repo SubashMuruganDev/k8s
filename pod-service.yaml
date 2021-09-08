@@ -3,8 +3,8 @@ kind: Service
 metadata:
  name: pod-service
 spec:
- port :
- - port 30001
+ ports:
+ - port: 30001
    targetPort: mypodport
    protocol : TCP
  selector:
