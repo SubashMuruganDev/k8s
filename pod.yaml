@@ -7,4 +7,6 @@ spec:
  - name: mypy
    image: arjunachari12/my-python-image
    ports:
-   - containerPort: 80
+   - name: mypodport
+     containerPort: 80
+     
